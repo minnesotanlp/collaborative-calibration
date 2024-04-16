@@ -1,0 +1,15 @@
+# environment
+.env
+__pycache__/
+venv
+.mypy_cache
+.DS_Store
+Dockerfile
+
+# cache & memory
+data/hf_cache
+data/memory/*
+*.log
+
+# raw datasets
+data/benchmarks/raw/*

@@ -1,0 +1,5 @@
+dataset_name,model_name,prompt_type,sampling_type,aggregation_type,acc,ece,use_cot,input_file_name,num_ensemble
+ambigqa,chatgpt,top_k,self_random,avg_conf_top1,0.40333,0.33856,True,ambigqa_chatgpt_04-11-23-24_processed.json,5
+ambigqa,chatgpt,top_k,self_random,avg_conf_topk,0.37667,0.13413,True,ambigqa_chatgpt_04-11-23-24_processed.json,5
+ambigqa,chatgpt,top_k,self_random,pair_rank_conf,0.40333,0.32085,True,ambigqa_chatgpt_04-11-23-24_processed.json,5
+ambigqa,chatgpt,top_k,self_random,consistency,0.40333,0.32800,True,ambigqa_chatgpt_04-11-23-24_processed.json,5
